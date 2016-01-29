@@ -1,13 +1,13 @@
 [user]
-	name = Christian Romney
-	email = cromney@pointslope.com
+	name = Daniel Brito
+	email = dbrito@pointslope.com
 [core]
 	autocrlf = input
-	excludesfile = /Users/christian/.gitignore_global
+	excludesfile = /Users/daniel/.gitignore_global
 	editor = emacs
 	pager = less
 [commit]
-	template = /Users/christian/.git-commit-template
+	template = /Users/daniel/.git-commit-template
 [help]
 	autocorrect = 1
 [alias]
@@ -17,11 +17,7 @@
 	cp = cherry-pick
 	dc = diff --cached
 	fp = format-patch
-	ls = log --oneline
 	st = status
-	up = pull
-	ff = pull --ff-only
-	rl = reflog
 [color]
 	ui = auto
 [push]

@@ -9,7 +9,7 @@
   (setq org-export-backends '(ascii html icalendar latex md))
 
   ;; File handling
-  (setq org-directory "~/Dropbox/org")
+  (setq org-directory "~/Google\ Drive/org")
   (setq org-default-notes-file (concat org-directory "/default.org"))
   (setq org-log-done t
         org-startup-indented t)
@@ -21,7 +21,7 @@
         org-agenda-skip-deadline-if-done t
         org-agenda-skip-scheduled-if-done t
         org-agenda-include-diary t
-        org-agenda-files (list "~/Dropbox/org/agenda.org"))
+        org-agenda-files (list "~/Google\ Drive/org/agenda.org"))
 
   ;; Todo Lists
   (setq org-todo-keywords '((type "TODO" "IN-PROGRESS" "|" "DONE"))
@@ -58,7 +58,7 @@
   :ensure t
   :defer t
   :config
-  (setq deft-directory "~/Dropbox/org")
+  (setq deft-directory "~/Google\ Drive/org")
   (setq deft-use-filename-as-title t)
   (setq deft-extension "org")
   (setq deft-text-mode 'org-mode)

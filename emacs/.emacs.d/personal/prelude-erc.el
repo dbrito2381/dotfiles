@@ -7,13 +7,11 @@
   (setq erc-prompt-for-password nil)
   (setq erc-autojoin-channels-alist
         '(("freenode.net" "#clojure")
-          ("freenode.net" "#racket")
-          ("freenode.net" "#minikanren")
-          ("freenode.net" "#hoplon")))
+          ("freenode.net" "#racket")))
   (erc-services-mode 1)
   (defun personal/connect-to-freenode ()
     (interactive)
     (erc :server "irc.freenode.net"
-         :nick "cromney"
-         :full-name "Christian Romney"))
+         :nick "dbrito"
+         :full-name "Daniel Brito"))
   :bind ("<f9>" . personal/connect-to-freenode))
